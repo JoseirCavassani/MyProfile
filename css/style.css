@@ -1,5 +1,60 @@
-/* Body*/
-.body{
-    font-family: 'Oxygen', sans-serif;
-    background-color: indianred;
+@import url("https://fonts.googleapis.com/css2?family=Play&family=Rajdhani:wght@300;400&display=swap");
+body {
+  background-color: #28282b;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 0.4px solid whitesmoke;
+  opacity: 0.95;
+}
+.logo {
+  height: 72px;
+}
+.nav-bar {
+  display: flex;
+  gap: 25px;
+  font-family: "Play", sans-serif;
+}
+.nav-bar a:hover {
+  color: steelblue;
+  transition: 0.7s;
+}
+.nav-bar-item {
+  font-weight: 400;
+  font-size: 18px;
+  transition: 0.5s;
+  color: whitesmoke;
+}
+.content {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.content-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.content-principal-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content-principal-text-title {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+.content-principal-image {
+  height: 400px;
 }
