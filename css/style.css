@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Play&family=Rajdhani:wght@300;400&display=swap");
+
+:root {
+  --header-color: #5e6472;
+  --bg-color: #eceae4;
+  --text-color-body: #5e6472;
+  --text-color-header: #eceae4;
+  --a-hover-color: #eceae4;
+  --btn-color: #fcb9aa;
+  --font-body: "Rajdhani", sans-serif;
+  --font-header: "Play", sans-serif;
+}
 body {
-  background-color: #28282b;
+  background-color: var(--bg-color);
 }
 .header {
   display: flex;
@@ -8,7 +19,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 24px;
-  background-color: black;
+  background-color: var(--header-color);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -21,17 +32,17 @@ body {
 .nav-bar {
   display: flex;
   gap: 25px;
-  font-family: "Play", sans-serif;
+  font-family: var(--font-header);
 }
 .nav-bar a:hover {
-  color: steelblue;
-  transition: 0.7s;
+  color: var(--a-hover-color);
+  transition: 0.3s;
 }
 .nav-bar-item {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   transition: 0.5s;
-  color: whitesmoke;
+  color: var(--text-color-header);
 }
 .content {
   margin-bottom: 40px;
@@ -49,12 +60,42 @@ body {
   gap: 10px;
 }
 .content-principal-text-title {
-  font-family: "Rajdhani", sans-serif;
+  font-family: var(--font-body);
   font-weight: 400;
-  font-size: 50px;
-  color: whitesmoke;
+  font-size: 60px;
+  color: var(--text-color-body);
+}
+.content-principal-text-subtitle {
+  font-family: var(--font-body);
+  font-weight: 300;
+  color: var(--text-color-body);
+  font-size: 35px;
+}
+.content-principal-button {
+  background-color: var(--btn-color);
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--text-color-body);
+}
+.content-principal-button:hover {
+  background-color: rgba(116, 121, 162, 0.53);
 }
 
 .content-principal-image {
-  height: 400px;
+  height: 430px;
+}
+.footer {
+  padding: 32px;
+  border-top: 0.4px solid whitesmoke;
+}
+.footer-text {
+  text-align: center;
+  color: var(--text-color-body);
+  font-family: var(--font-body);
+  font-size: 30px;
 }
