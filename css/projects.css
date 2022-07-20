@@ -1,0 +1,52 @@
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: var(--bg-projects-color);
+  width: auto;
+  height: 500px;
+  padding: 34px;
+}
+.content-projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.title-projects {
+  font-size: 50px;
+  color: var(--text-color-body);
+  font-family: var(--font-body);
+  font-weight: 400;
+}
+.list-projects {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.item-projects {
+  width: 150px;
+  height: 150px;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  color: var(--text-color-body);
+  font-family: var(--font-body);
+}
+.btn-github {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--btn-github);
+  font-family: var(--font-body);
+  width: 180px;
+  height: 60px;
+  color: var(--btn-text-color-github);
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+}

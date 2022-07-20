@@ -5,6 +5,10 @@
   justify-content: space-around;
   flex-direction: column;
   margin-bottom: 50px;
+  background-color: var(--bg-skills-color);
+  width: auto;
+  height: auto;
+  padding: 150px;
 }
 .contents-skills-text {
   display: flex;
@@ -34,6 +38,7 @@
 .skills-list {
   display: flex;
   gap: 35px;
+  flex-wrap: wrap;
 }
 .skill-item {
   display: flex;
@@ -43,10 +48,45 @@
   color: var(--text-color-body);
   font-family: var(--font-body);
   font-weight: 400;
+  border: none;
+  color: var(--btn-text-color);
+  width: 150px;
+  height: 150px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.html-bg {
+  background-image: url(/images/html-1.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.img-skills {
-  height: 75px;
+.css-bg {
+  background-image: url(/images/css.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.js-bg {
+  background-image: url(/images/js.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bootstrap-bg {
+  background-image: url(/images/bootstrap.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.git-bg {
+  background-image: url(/images/git.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.content-skills-text {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }

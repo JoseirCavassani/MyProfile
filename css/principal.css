@@ -3,6 +3,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  background-color: var(--bg-color);
+  padding: 30px;
 }
 .content-principal-text {
   display: flex;
@@ -22,7 +24,7 @@
   font-size: 35px;
 }
 .content-principal-button {
-  background-color: var(--btn-color);
+  background-color: var(--btn-linkedin-color);
   width: 180px;
   height: 60px;
   border: none;

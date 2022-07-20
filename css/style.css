@@ -1,64 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Play&family=Rajdhani:wght@300;400&display=swap");
 
 :root {
-  --header-color: #5e6472;
+  --header-color: #5b85a7;
   --bg-color: #eceae4;
+  --bg-about-color: #d8d4c9;
+  --bg-skills-color: #eceae4;
+  --bg-projects-color: #d8d4c9;
   --text-color-body: #5e6472;
   --text-color-header: #eceae4;
   --a-hover-color: #eceae4;
-  --btn-color: #5b85a7;
+  --btn-linkedin-color: #5b85a7;
   --font-body: "Rajdhani", sans-serif;
   --font-header: "Play", sans-serif;
   --btn-text-color: white;
+  --btn-github: #5e6472;
+  --btn-text-color-github: #eceae4;
+  --footer-color: #5e6472;
+  --footer-text-color: #eceae4;
 }
 body {
   background-color: var(--bg-color);
 }
-.header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 24px;
-  background-color: var(--header-color);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  border-bottom: 0.4px solid whitesmoke;
-  opacity: 0.95;
-}
-.logo {
-  height: 72px;
-}
-.nav-bar {
-  display: flex;
-  gap: 25px;
-  font-family: var(--font-header);
-}
-.nav-bar a:hover {
-  color: var(--a-hover-color);
-  transition: 0.3s;
-}
-.nav-bar-item {
-  font-weight: 400;
-  font-size: 20px;
-  transition: 0.5s;
-  color: var(--text-color-header);
-}
-.content {
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
 
-/*footer*/
-.footer {
-  padding: 32px;
-  border-top: 0.4px solid whitesmoke;
-  background-color: red;
-}
-.footer-text {
-  text-align: center;
-  color: var(--text-color-body);
-  font-family: var(--font-body);
-  font-size: 30px;
+.content {
+  margin-bottom: 0px;
+  margin-top: 0px;
 }

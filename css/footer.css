@@ -1,0 +1,12 @@
+/*footer*/
+.footer {
+  padding: 30px;
+  background-color: var(--footer-color);
+  display: flex;
+  justify-content: space-around;
+}
+.footer-text {
+  color: var(--footer-text-color);
+  font-family: var(--font-body);
+  font-size: 30px;
+}

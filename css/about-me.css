@@ -2,8 +2,9 @@
 .about-me {
   margin-top: 100px;
   display: flex;
-  border-top: #5b85a7 solid;
-  border-bottom: #5b85a7 solid;
+  background-color: var(--bg-about-color);
+  width: auto;
+  height: 700px;
 }
 .content-about {
   display: flex;
@@ -11,7 +12,6 @@
   align-items: center;
   gap: 30px;
   padding: 25px;
-  background-color: var(--bg-color);
   margin-top: 100px;
 }
 .title-about {
