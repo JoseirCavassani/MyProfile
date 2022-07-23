@@ -55,32 +55,32 @@
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 .html-bg {
-  background-image: url(/images/html-1.svg);
+  background-image: url(images/html-1.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .css-bg {
-  background-image: url(/images/css.png);
+  background-image: url(images/css.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .js-bg {
-  background-image: url(/images/js.png);
+  background-image: url(images/js.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .bootstrap-bg {
-  background-image: url(/images/bootstrap.png);
+  background-image: url(images/bootstrap.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .git-bg {
-  background-image: url(/images/git.png);
+  background-image: url(images/git.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
