@@ -42,3 +42,20 @@
 .content-principal-image {
   height: 430px;
 }
+
+@media screen and (max-width: 768px) {
+  .content-principal {
+    display: flex;
+    background-color: var(--bg-color);
+    padding: 20px;
+  }
+  .content-principal-text-title {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--text-color-body);
+  }
+  .content-principal-image {
+    height: 210px;
+  }
+}

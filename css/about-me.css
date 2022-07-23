@@ -38,3 +38,19 @@
   padding: 40px;
   margin-top: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .about-me {
+    margin-top: 100px;
+    display: inline;
+    background-color: var(--bg-about-color);
+    width: auto;
+    height: auto;
+  }
+  .img-about {
+    height: 100px;
+    padding-right: 5px;
+    padding: 40px;
+    margin-top: 100px;
+  }
+}

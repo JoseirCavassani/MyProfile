@@ -50,3 +50,23 @@
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   font-size: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .projects {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: var(--bg-projects-color);
+    width: auto;
+    height: auto;
+    padding: auto;
+  }
+  .list-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
