@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 24px;
-  background-color: var(--header-color);
+  background-color: whitesmoke;
   position: sticky;
   top: 0;
   z-index: 100;
