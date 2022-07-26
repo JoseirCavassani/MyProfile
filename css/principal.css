@@ -52,6 +52,7 @@
   }
   .content-principal-text-title {
     padding: 15px;
+    font-size: 18px;
   }
   .content-principal-image {
     margin-top: 0 auto;
@@ -60,5 +61,6 @@
   }
   .content-principal-text-subtitle {
     padding: 15px;
+    font-size: 15px;
   }
 }
