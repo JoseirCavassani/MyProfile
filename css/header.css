@@ -29,3 +29,28 @@
   transition: 0.5s;
   color: var(--text-color-header);
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 0.4px solid whitesmoke;
+    opacity: 0.95;
+  }
+  .logo {
+    height: 52px;
+  }
+  .nav-bar-item {
+    font-weight: 400;
+    font-size: auto;
+    transition: 0.5s;
+    color: var(--text-color-header);
+  }
+}
