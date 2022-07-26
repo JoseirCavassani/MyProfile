@@ -2,10 +2,10 @@
 
 :root {
   --header-color: #5b85a7;
-  --bg-color: #eceae4;
-  --bg-about-color: #d8d4c9;
-  --bg-skills-color: #eceae4;
-  --bg-projects-color: #d8d4c9;
+  --bg-color: whitesmoke;
+  --bg-about-color: whitesmoke;
+  --bg-skills-color: whitesmoke;
+  --bg-projects-color: whitesmoke;
   --text-color-body: #5e6472;
   --text-color-header: #28282b;
   --a-hover-color: #5b85a7;
@@ -23,6 +23,7 @@ body {
 }
 
 .content {
-  margin-bottom: 0px;
-  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
 }

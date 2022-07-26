@@ -4,9 +4,69 @@
   align-items: center;
   justify-content: space-around;
   padding: 24px;
-  background-color: whitesmoke;
   position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 0px solid #28282b;
+  background-color: rgba(245, 245, 245, 0.96);
 }
+.logo {
+  height: 72px;
+}
+.nav-bar {
+  display: flex;
+  gap: 25px;
+  font-family: var(--font-header);
+}
+.nav-bar a:hover {
+  color: var(--a-hover-color);
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.nav-bar-item {
+  font-weight: 400;
+  font-size: 20px;
+  transition: 0.5s;
+  color: var(--text-color-header);
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar-item {
+    font-size: 16px;
+  }
+  .logo {
+    height: 52px;
+  }
+}
+.logo {
+  height: 72px;
+}
+.nav-bar {
+  display: flex;
+  gap: 25px;
+  font-family: var(--font-header);
+}
+.nav-bar a:hover {
+  color: var(--a-hover-color);
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.nav-bar-item {
+  font-weight: 400;
+  font-size: 20px;
+  transition: 0.5s;
+  color: var(--text-color-header);
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar-item {
+    font-size: 16px;
+  }
+  .logo {
+    height: 52px;
+  }
+}
+
 .logo {
   height: 72px;
 }

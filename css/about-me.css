@@ -1,10 +1,10 @@
 /*Section about me*/
 .about-me {
-  margin-top: 100px;
   display: flex;
+  align-items: center;
   background-color: var(--bg-about-color);
-  width: auto;
-  height: 700px;
+  padding: 50px;
+  height: 100vh;
 }
 .content-about {
   display: flex;
@@ -12,7 +12,6 @@
   align-items: center;
   gap: 30px;
   padding: 25px;
-  margin-top: 100px;
 }
 .title-about {
   color: var(--text-color-body);
@@ -31,26 +30,9 @@
   font-family: var(--font-body);
   font-weight: 400;
 }
-.img-about {
-  height: 450px;
-  display: flex;
-  padding-right: 5px;
-  padding: 40px;
-  margin-top: 100px;
-}
 
 @media screen and (max-width: 768px) {
-  .about-me {
-    margin-top: 100px;
-    display: inline;
-    background-color: var(--bg-about-color);
-    width: auto;
-    height: auto;
-  }
-  .img-about {
-    height: 100px;
-    padding-right: 5px;
-    padding: 40px;
-    margin-top: 100px;
+  .text-about {
+    margin: 0;
   }
 }

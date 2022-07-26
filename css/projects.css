@@ -1,10 +1,9 @@
 .projects {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   flex-direction: column;
   background-color: var(--bg-projects-color);
-  width: auto;
-  height: 500px;
   padding: 34px;
 }
 .content-projects {
