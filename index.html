@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/footer.css">
-
+    <link rel="stylesheet" href="css/hamburger.css">
 
     <title>Joseir - FrontEnd Developer</title>
 </head>
@@ -21,7 +21,16 @@
 <body id="home">
     <header class="header">
         <img class="logo" src="./images/logo.png" alt="">
-        <nav class="nav-bar">
+        <nav class="nav-bar" id="myNav-bar">
+            <!--mobile menu-->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <button class="hamburger hamburger--emphatic" type="button">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </button>
+            </a>
+            <!--end mobile menu-->
             <a class="nav-bar-item" href="#home">Home</a>
             <a class="nav-bar-item" href="#aboutme">About</a>
             <a class="nav-bar-item" href="#skills">Skills</a>
@@ -83,6 +92,9 @@
     <footer class="footer">
         <h2 class="footer-text">JOSEIR CAVASSANI</h2>
     </footer>
+
+    <!--javaScript-->
+    <script src="js/app.js"></script>
 
 </body>
 
