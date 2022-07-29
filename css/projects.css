@@ -50,22 +50,33 @@
   font-size: 18px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .projects {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
-    flex-direction: column;
-    background-color: var(--bg-projects-color);
-    width: auto;
-    height: auto;
-    padding: auto;
+  }
+  .content-projects {
+    display: flex;
+    align-items: center;
   }
   .list-projects {
     display: flex;
-    flex-direction: column;
-    gap: 150px;
+    gap: 10px;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  }
+
+  .item-projects {
+    width: 75px;
+    height: 75px;
+    align-items: center;
+    text-align: center;
+  }
+  .btn-github {
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
   }
 }

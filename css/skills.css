@@ -31,13 +31,13 @@
 }
 .content-skills-list {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
 .skills-list {
   display: flex;
-  gap: 35px;
   flex-wrap: wrap;
+  gap: 35px;
 }
 .skill-item {
   display: flex;
@@ -53,6 +53,9 @@
   height: 150px;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   transition: 0.3s;
+}
+.skill-item:hover #skill-selection {
+  background-color: brown;
 }
 .skill-item:hover {
   transition: 0.3s;
@@ -90,10 +93,12 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .content-skills {
     padding: 5px;
     text-align: center;
+    height: 110vh;
+    justify-content: space-around;
   }
   .skill-item {
     width: 75px;
@@ -103,6 +108,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 15px;
+    gap: 15px;
   }
 }
