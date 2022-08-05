@@ -23,11 +23,15 @@
 .subtitle-skills {
   display: flex;
   align-items: center;
-  justify-content: center;
   color: var(--text-color-body);
   font-family: var(--font-body);
   font-weight: 400;
   margin-top: 50px;
+}
+.skill-selection-text {
+  font-family: var(--font-body);
+  font-size: 30px;
+  color: var(--text-color-body);
 }
 .content-skills-list {
   display: flex;
@@ -54,8 +58,8 @@
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   transition: 0.3s;
 }
-.skill-item:hover #skill-selection {
-  background-color: brown;
+.skill-item:hover {
+  cursor: pointer;
 }
 .skill-item:hover {
   transition: 0.3s;
@@ -93,7 +97,7 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .content-skills {
     padding: 5px;
     text-align: center;

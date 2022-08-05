@@ -15,6 +15,29 @@
   font-weight: 400;
   font-size: 60px;
   color: var(--text-color-body);
+  border-right: 2px solid var(--text-color-body);
+  white-space: nowrap;
+  overflow: hidden;
+}
+.type-animation {
+  animation: blinkCursor 500ms steps(40) infinite normal,
+    typing 4s steps(40) 0.5s normal both;
+}
+@keyframes blinkCursor {
+  form {
+    border-right: 2px solid var(--text-color-body);
+  }
+  to {
+    border-right: 2px solid whitesmoke;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 .content-principal-text-subtitle {
   font-family: var(--font-body);
@@ -24,7 +47,7 @@
 }
 .content-principal-button {
   background-color: var(--btn-linkedin-color);
-  width: 180px;
+  width: 280px;
   height: 60px;
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
@@ -36,25 +59,32 @@
 .content-principal-button:hover {
   background-color: rgba(116, 121, 162, 0.53);
   color: var(--text-color-body);
+  cursor: pointer;
 }
 
 .content-principal-image {
   height: 380px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .content-principal {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     background-color: var(--bg-color);
   }
   .content-principal-text-title {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 239px;
+    }
   }
 
   .content-principal-text-subtitle {
@@ -64,14 +94,13 @@
     font-size: 18px;
   }
   .content-principal-image {
+    height: 300px;
     margin: 0 auto;
-    height: 210px;
-    margin-top: 0;
-    display: none;
+    display: block;
   }
+
   .content-principal-button {
     margin: 0 auto;
-    width: 130px;
-    height: 50px;
+    cursor: pointer;
   }
 }

@@ -42,12 +42,17 @@
   justify-content: space-around;
   background-color: var(--btn-github);
   font-family: var(--font-body);
-  width: 180px;
+  width: 400px;
   height: 60px;
   color: var(--btn-text-color-github);
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-  font-size: 18px;
+  font-size: 20px;
+}
+.btn-github:hover {
+  background-color: rgba(116, 121, 162, 0.53);
+  color: var(--text-color-body);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
@@ -75,8 +80,9 @@
     text-align: center;
   }
   .btn-github {
-    width: 130px;
-    height: 50px;
+    width: 280px;
+    height: 60px;
     font-size: 16px;
+    cursor: pointer;
   }
 }

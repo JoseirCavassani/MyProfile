@@ -16,3 +16,8 @@ function myFunction() {
     x.className = "nav-bar";
   }
 }
+
+//skills selection
+function Skill(text) {
+  document.getElementById("skill-selection-text").innerHTML = text;
+}
