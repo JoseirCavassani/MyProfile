@@ -21,7 +21,6 @@
 body {
   background-color: var(--bg-color);
   font-size: 20px;
-  overflow: hidden;
 }
 
 .content {
