@@ -13,9 +13,9 @@
   --font-body: "Rajdhani", sans-serif;
   --font-header: "Play", sans-serif;
   --btn-text-color: white;
-  --btn-github: #5e6472;
+  --btn-github: #28282b;
   --btn-text-color-github: #eceae4;
-  --footer-color: #5e6472;
+  --footer-color: #28282b;
   --footer-text-color: #eceae4;
 }
 body {
