@@ -5,11 +5,13 @@
   background-color: var(--bg-color);
   height: 90vh;
 }
+
 .content-principal-text {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .content-principal-text-title {
   font-family: var(--font-body);
   font-weight: 400;
@@ -19,32 +21,42 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
+/* Name animation */
 .type-animation {
   animation: blinkCursor 500ms steps(40) infinite normal,
     typing 2.5s steps(40) 0.5s normal both;
 }
+
 @keyframes blinkCursor {
-  form {
+  from {
     border-right: 2px solid var(--text-color-body);
   }
+
   to {
     border-right: 2px solid whitesmoke;
   }
 }
+
 @keyframes typing {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
 }
+
+/* end Name animation */
+
 .content-principal-text-subtitle {
   font-family: var(--font-body);
   font-weight: 300;
   color: var(--text-color-body);
   font-size: 35px;
 }
+
 .content-principal-button {
   background-color: var(--btn-linkedin-color);
   width: 280px;
@@ -56,6 +68,7 @@
   font-size: 25px;
   color: var(--btn-text-color);
 }
+
 .content-principal-button:hover {
   background-color: rgba(116, 121, 162, 0.53);
   color: var(--text-color-body);
@@ -73,15 +86,18 @@
     align-items: center;
     background-color: var(--bg-color);
   }
+
   .content-principal-text-title {
     font-size: 25px;
     text-align: center;
     margin: 0 auto;
   }
+
   @keyframes typing {
     from {
       width: 0;
     }
+
     to {
       width: 180px;
     }
@@ -93,6 +109,7 @@
     align-items: center;
     font-size: 18px;
   }
+
   .content-principal-image {
     height: 300px;
     margin: 0 auto;
