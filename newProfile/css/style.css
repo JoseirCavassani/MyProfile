@@ -14,6 +14,8 @@
     --color-text-primary: #28282b;
     --color-text-secondary: #7DB9B6;
     --color-btn: #5b85a7;
+    --color-btn2: hsla(182, 63%, 54%);
+
     --color-black: #212529;
     --color5: #5e6472;
     --font-primary: "Rajdhani", sans-serif;
@@ -37,7 +39,7 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: royalblue;
+    background-color: var(--color-white);
 }
 
 .nav-header {
@@ -92,6 +94,11 @@ ul {
 
 .links a:hover {
     color: var(--color-text-secondary);
+    /* transform: scale(1); */
+    text-transform: uppercase;
+    transition: var(--transition);
+
+
 }
 
 .banner {
@@ -285,21 +292,26 @@ footer p {
     background-color: var(--color-black);
 }
 
+/* back to top button */
 .top-link {
     font-size: 1.25rem;
     position: fixed;
     bottom: 3rem;
     right: 3rem;
-    background: var(--color-white);
+    background: var(--color-btn2);
     width: 2rem;
     height: 2rem;
     display: grid;
     place-items: center;
     border-radius: 10px;
-    color: var(--color-black);
+    color: var(--color-white);
     animation: bounce 2s ease-in-out infinite;
     visibility: hidden;
     z-index: -100;
+}
+
+a i {
+    background-color: var(--color-btn2);
 }
 
 .show-link {
@@ -324,14 +336,14 @@ footer p {
 
 /* tablet size */
 @media screen and (min-width: 768px) {
-    /* nav {
+    nav {
         background: transparent;
-    } */
+    }
 
     .nav-center {
-        background-color: white;
-        border: 3px solid red;
-        width: 100vw;
+        background-color: transparent;
+        /* border: 3px solid red; */
+        width: 95vw;
         /* max-width: 1170px; */
         margin: 0 auto;
         display: flex;
@@ -340,11 +352,29 @@ footer p {
 
     }
 
+    .nav-header {
+        padding: 0;
+    }
+
     .nav-toggle {
         display: none;
     }
 
     .links-container {
         height: auto !important;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .links a {
+        background-color: transparent;
+        text-transform: capitalize;
+        transition: var(--transition);
+        display: block;
+        color: var(--color-text-primary);
+        margin: 0 1rem;
+
     }
 }
