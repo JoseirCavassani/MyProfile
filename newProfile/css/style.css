@@ -298,7 +298,6 @@ section {
     height: 250px;
     padding: 5px;
 
-
     border: 2px solid blue;
 }
 
@@ -366,6 +365,7 @@ a i {
     z-index: 100;
 }
 
+/* back to top button animation */
 @keyframes bounce {
     0% {
         transform: scale(1);
