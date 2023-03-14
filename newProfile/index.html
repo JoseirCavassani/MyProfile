@@ -24,7 +24,9 @@
             <div class="nav-center">
                 <!-- nav header -->
                 <div class="nav-header">
-                    <img src="img/logo.png" alt="logo" class="logo">
+                    <a href="">
+                        <img src="img/logo.png" alt="logo" class="logo">
+                    </a>
                     <button class="nav-toggle">
                         <i class="fas fa-bars"></i>
                     </button>
@@ -55,9 +57,11 @@
                 <p class="name-subtitle">
                     FrontEnd Developer
                 </p>
-                <a href="#linkedin" class="scroll-link btn btn-blue">
-                    linkedin
-                </a>
+                <button class="scroll-link btn btn-blue"
+                    onclick=" window.open('https://www.linkedin.com/in/joseir-cavassani/', '_blank');">
+                    LinkedIn
+                </button>
+
             </div>
             <img src="img/me.png" alt="me" class="me">
         </div>
@@ -147,17 +151,19 @@
             <div class="title">
                 <h2 class="projects-color">my<span class="projects-color">projects</span></h2>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat asperiores a quas at veniam cum
-                quam modi, velit recusandae quisquam officia consequatur reprehenderit. Eum, laboriosam?
-            </p>
-            <div class="box-projects">
-                <a href="https://joseircavassani.github.io/JavaScriptProjects/" target="_blank"
-                    class="btn-projects">JavaScript Projects
-                    1</a>
+            <div class="container-box-projects">
+                <div class="box-projects">
+                    <a href="https://joseircavassani.github.io/JavaScriptProjects/" target="_blank"
+                        class="btn-projects">JavaScript Projects</a>
+                </div>
+                <div class="box-projects">
+                    <a href="##" class="btn-projects">Coming soon</a>
+                </div>
             </div>
-            <div class="box-projects">
-                <p class="text-box-projects">JavaScript Projects 2</p>
-            </div>
+            <button class="btn-github"
+                onclick=" window.open('https://github.com/JoseirCavassani?tab=repositories/', '_blank');">
+                Github Repository
+            </button>
 
         </section>
     </main>
