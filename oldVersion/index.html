@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/principal.css" />
+  <link rel="stylesheet" href="css/about-me.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/hamburger.css" />
+  <!--Favicon-->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+
+  <!--end Favicon-->
+
+  <title>Joseir - FrontEnd Developer</title>
+</head>
+
+<body id="home">
+  <header class="header">
+    <a href="">
+      <img class="logo" src="./images/logo.png" alt="logo Joseir Paz" /></a>
+    <nav class="nav-bar" id="myNav-bar">
+      <!--mobile menu-->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <button class="hamburger hamburger--emphatic" type="button">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </button>
+      </a>
+      <!--end mobile menu-->
+      <a class="nav-bar-item" href="#home">Home</a>
+      <a class="nav-bar-item" href="#aboutme">About</a>
+      <a class="nav-bar-item" href="#skills">Skills</a>
+      <a class="nav-bar-item" href="#projects">Projects</a>
+    </nav>
+  </header>
+  <!--content-home-->
+  <main class="content">
+    <section class="content-principal">
+      <div class="content-principal-text">
+        <h1 class="content-principal-text-title type-animation">
+          Hi, I'm Joseir Paz
+        </h1>
+        <h2 class="content-principal-text-subtitle">FrontEnd Developer</h2>
+        <button class="content-principal-button"
+          onclick=" window.open('https://www.linkedin.com/in/joseir-cavassani/', '_blank');">
+          LinkedIn
+        </button>
+      </div>
+      <img class="content-principal-image" src="images/me.png" alt="Joseir photo" />
+    </section>
+    <section class="about-me" id="aboutme">
+      <div class="content-about">
+        <h1 class="title-about">About</h1>
+        <h2 class="subtile-about">A little about myself</h2>
+        <p class="text-about">
+          My name is Joseir, passionate about technology and on his way to
+          becoming a developer. I have already participated in a project
+          creating a Web system using bootstrap, PHP and MySql. I'm currently
+          focusing on FrontEnd technologies.
+        </p>
+      </div>
+    </section>
+    <section id="skills" class="content-skills">
+      <div class="contents-skills-text">
+        <h1 class="title-skills">Skills</h1>
+        <p class="subtitle-skills">
+          Below are the technologies/skills that I am aware of.
+        </p>
+      </div>
+      <div class="skill-selection">
+        <h2 class="skill-selection-text" id="skill-selection-text" name="text">
+          *Click on any skill
+        </h2>
+      </div>
+      <li class="skills-list" id="skills-list">
+        <ul class="skill-item html-bg" onclick="Skill('HTML')" name="HTML"></ul>
+        <ul class="skill-item css-bg" onclick="Skill('CSS')" name="CSS"></ul>
+        <ul class="skill-item js-bg" onclick="Skill('JavaScript')" name="JavaScript"></ul>
+        <ul class="skill-item bootstrap-bg" onclick="Skill('Bootstrap')" name="Bootstrap"></ul>
+        <ul class="skill-item git-bg" onclick="Skill('Git')" name="Git"></ul>
+      </li>
+    </section>
+    <section class="projects" id="projects">
+      <div class="content-projects">
+        <h2 class="title-projects">Projects</h2>
+        <ul class="list-projects">
+          <a class="item-projects" href="https://joseircavassani.github.io/JavaScriptProjects/"
+            target="_blank">JavaScript Projects</a>
+          <a class="item-projects" href="#">Coming soon</a>
+          <a class="item-projects" href="#">Coming soon</a>
+        </ul>
+        <button class="btn-github"
+          onclick=" window.open('https://github.com/JoseirCavassani?tab=repositories/', '_blank');">
+          Github Repository
+        </button>
+      </div>
+    </section>
+  </main>
+  <!--End content-home-->
+  <footer class="footer">
+    <h2 class="footer-text">JOSEIR PAZ</h2>
+  </footer>
+
+  <!--javaScript-->
+  <script src="js/app.js"></script>
+</body>
+
+</html>

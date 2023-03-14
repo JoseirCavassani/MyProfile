@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&family=Rajdhani:wght@300;400&display=swap");
+
+:root {
+  --header-color: #5b85a7;
+  --bg-color: whitesmoke;
+  --bg-about-color: whitesmoke;
+  --bg-skills-color: whitesmoke;
+  --bg-projects-color: whitesmoke;
+  --text-color-body: #5e6472;
+  --text-color-header: #28282b;
+  --a-hover-color: #5b85a7;
+  --btn-linkedin-color: #5b85a7;
+  --font-body: "Rajdhani", sans-serif;
+  --font-header: "Play", sans-serif;
+  --btn-text-color: white;
+  --btn-github: #28282b;
+  --btn-text-color-github: #eceae4;
+  --footer-color: #28282b;
+  --footer-text-color: #eceae4;
+}
+body {
+  background-color: var(--bg-color);
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
